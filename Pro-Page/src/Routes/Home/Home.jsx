@@ -1,9 +1,12 @@
+import { Canvas } from '@react-three/fiber'
 import React from 'react'
 
 function Home() {
   return (
-    <div>
-        <h1>Home</h1>
+    <div id="home-canvas-container">
+      <Canvas style={{backgroundColor:'black'}}>
+
+      </Canvas>
     </div>
   )
 }
