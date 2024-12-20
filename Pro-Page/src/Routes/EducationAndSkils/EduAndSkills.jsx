@@ -2,8 +2,8 @@ import React from 'react'
 
 function EduAndSkills() {
   return (
-    <div>
-      <h1>Education & Skills</h1>
+    <div id='edu-skill-container' className='route-main-container'>
+
     </div>
   )
 }

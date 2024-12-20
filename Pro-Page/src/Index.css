@@ -2,7 +2,17 @@ body{
     margin: 0;
 }
 
-#home-canvas-container{
-    height: 100vh;
-    width: 100vw;
+.route-main-container{
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw; 
+    min-width: 100vw;
 }
+
+#home-container{
+    background-image: url("/Home-page-background.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+

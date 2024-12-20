@@ -2,8 +2,8 @@ import React from 'react'
 
 function Exp() {
   return (
-    <div>
-        <h1>Experience</h1>
+    <div id='exp-container' className='route-main-container'>
+        
     </div>
   )
 }
